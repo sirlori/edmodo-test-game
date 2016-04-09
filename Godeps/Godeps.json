@@ -1,0 +1,57 @@
+{
+	"ImportPath": "github.com/sirlori/edmodo-project-game",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v62",
+	"Deps": [
+		{
+			"ImportPath": "github.com/labstack/echo",
+			"Comment": "v2.0.0-beta.2-41-g7905fbd",
+			"Rev": "7905fbd667a489bc8b2d3313d7d6a2faeefabf33"
+		},
+		{
+			"ImportPath": "github.com/labstack/echo/engine",
+			"Comment": "v2.0.0-beta.2-41-g7905fbd",
+			"Rev": "7905fbd667a489bc8b2d3313d7d6a2faeefabf33"
+		},
+		{
+			"ImportPath": "github.com/labstack/echo/engine/standard",
+			"Comment": "v2.0.0-beta.2-41-g7905fbd",
+			"Rev": "7905fbd667a489bc8b2d3313d7d6a2faeefabf33"
+		},
+		{
+			"ImportPath": "github.com/labstack/echo/middleware",
+			"Comment": "v2.0.0-beta.2-41-g7905fbd",
+			"Rev": "7905fbd667a489bc8b2d3313d7d6a2faeefabf33"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/color",
+			"Comment": "v0.0.3-47-gf4ba73f",
+			"Rev": "f4ba73f8bcf88df1524069c117f7878cf530ee4e"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/log",
+			"Comment": "v0.0.3-47-gf4ba73f",
+			"Rev": "f4ba73f8bcf88df1524069c117f7878cf530ee4e"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Rev": "d67e0b7d1797975196499f79bcc322c08b9f218b"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "56b76bdf51f7708750eac80fa38b952bb9f32639"
+		},
+		{
+			"ImportPath": "github.com/valyala/fasttemplate",
+			"Rev": "3b874956e03f1636d171bda64b130f9135f42cff"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "621fff363a1d9ad7fdd0bfa9d80a42881267deb4"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b4e289961544fc90f340c908c3460ceae6a2202a"
+		}
+	]
+}
