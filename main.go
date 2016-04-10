@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"net/http"
 	"os"
 
 	"github.com/labstack/echo"
@@ -18,6 +19,10 @@ func main() {
 	}
 
 	e.Static("/", "static")
+
+	e.Get("/", func(c echo.Context) error {
+		return c.Redirect(http.StatusSeeOther, "/index.html")
+	})
 
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
