@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"net/http"
 	"os"
 
 	"github.com/labstack/echo"
@@ -18,9 +17,7 @@ func main() {
 		log.Fatal("$PORT must be set")
 	}
 
-	e.Get("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
-	})
+	e.Static("/", "static")
 
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
